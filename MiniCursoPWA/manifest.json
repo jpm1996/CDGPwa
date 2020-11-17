@@ -1,0 +1,47 @@
+{
+  "name": "Game CDG",
+  "short_name": "GameCDG",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#F0F8FF",
+  "theme_color": "#F8F8FF",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/img/icons/icon48x48.png",
+      "type": "image/png",
+      "sizes": "48x48",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/img/icons/icon72x72.png",
+      "type": "image/png",
+      "sizes": "72x72",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/img/icons/icon96x96.png",
+      "type": "image/png",
+      "sizes": "96x96",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/img/icons/icon144x144.png",
+      "type": "image/png",
+      "sizes": "144x144",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/img/icons/icon192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/img/icons/icon512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
+}

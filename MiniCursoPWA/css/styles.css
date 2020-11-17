@@ -1,0 +1,75 @@
+/* colours */
+:root {
+  --primary: ##83d0de;
+  --secondary: #69bdd2;
+  --title: #195e83;
+}
+
+/* layout styles */
+nav {
+  background: var(--primary);
+  border-bottom: 10px solid var(--secondary);
+}
+nav a {
+  text-transform: uppercase;
+  color: var(--title);
+}
+nav a span {
+  font-weight: bold;
+}
+nav .sidenav-trigger {
+  margin: 0;
+}
+
+/* games styles */
+.games {
+  margin-top: 20px;
+}
+.card-panel.game {
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0px 1px 3px rgba(90, 90, 90, 0.1);
+  display: grid;
+  grid-template-columns: 2fr 6fr 1fr;
+  grid-template-areas: "image details delete";
+  position: relative;
+}
+.game img {
+  grid-area: image;
+  max-width: 60px;
+}
+.game-details {
+  grid-area: details;
+  margin-top: 6px;
+}
+.game-delete {
+  grid-area: delete;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.game-delete i {
+  font-size: 18px;
+}
+.game-title {
+  font-weight: bold;
+}
+.game-description {
+  font-size: 0.8em;
+}
+
+/* form-styles */
+.add-btn {
+  background: var(--title) !important;
+}
+input {
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+.side-form button {
+  background: var(--title);
+  box-shadow: 1px 1px 3px rgba(90, 90, 90, 0.2);
+}
+form .input-field {
+  margin-top: 30px;
+}
